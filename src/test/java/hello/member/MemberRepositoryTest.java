@@ -1,7 +1,5 @@
-package hello.Member;
+package hello.member;
 
-import hello.member.Member;
-import hello.member.MemberRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

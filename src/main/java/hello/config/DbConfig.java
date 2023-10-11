@@ -10,7 +10,7 @@ import org.springframework.transaction.TransactionManager;
 import javax.sql.DataSource;
 
 @Slf4j
-@Configuration
+//@Configuration
 public class DbConfig {
 
     @Bean
@@ -21,6 +21,7 @@ public class DbConfig {
         dataSource.setJdbcUrl("jdbc:h2:mem:test");
         dataSource.setUsername("sa");
         dataSource.setPassword("");
+
         return dataSource;
     }
 
